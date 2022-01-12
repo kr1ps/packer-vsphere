@@ -1,2 +1,2 @@
 # packer-vsphere
-proyecto para desplegar automaticamente VM en un vcenter
+automate deploy vm on vsphere without human interaction using packer and ansible
