@@ -19,6 +19,10 @@ vsphere_network         = "VM Network"
 # vsphere datastore
 vsphere_datastore       = "datastore1"
 
+# vsphere folder
+vcenter_folder                  = "Templates"
+
+
 # cloud_init files for unattended configuration for Ubuntu
 cloudinit_files         = ["./http/user-data","./http/meta-data"]
 
@@ -26,7 +30,7 @@ cloudinit_files         = ["./http/user-data","./http/meta-data"]
 shell_scripts           = ["./setup/setup.sh"]
 
 # SSH username (created in user-data. If you change it here the please also adjust in ./html/user-data)
-ssh_username            = "vagrant"
+ssh_username            = "test"
 
 # SSH password (created in autounattend.xml. If you change it here the please also adjust in ./html/user-data)
-ssh_password            = "vagrant"
+ssh_password            = "test"
