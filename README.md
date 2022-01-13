@@ -28,7 +28,7 @@ nano variables.auto.pkrvars.hcl
 Init Packer by using the following command. (Spot the dot at the end of the command!)
 ```bash
 packer init .
-``` 
+```
 
 ### Step 3: Build a VM Template
 
