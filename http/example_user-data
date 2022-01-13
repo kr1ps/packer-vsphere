@@ -35,6 +35,7 @@ autoinstall:
         - python3-pip
         - sshpass
         - open-vm-tools
+        - openssh-server
     user-data:
         disable_root: false
     late-commands:
