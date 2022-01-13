@@ -31,7 +31,7 @@ cloudinit_files         = ["./http/user-data","./http/meta-data"]
 shell_scripts           = ["./setup/setup.sh"]
 
 # SSH username (created in user-data. If you change it here the please also adjust in ./html/user-data)
-ssh_username            = "krips"
+ssh_username            = "test"
 
 # SSH password (created in autounattend.xml. If you change it here the please also adjust in ./html/user-data)
-ssh_password            = "123456"
+ssh_password            = "test"

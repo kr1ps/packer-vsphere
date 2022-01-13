@@ -10,8 +10,8 @@ autoinstall:
         variant: us
     identity:
         hostname: ubuntu-server
-        username: krips
-        password: '$1$VIKxmqgf$cvm3ASmPckzIASgZz8KIR.'
+        username: test
+        password: '$1$UZ98AsZd$rGDJCk4lArnMAqsoEiPAL0'
     ssh:
         install-server: yes
         allow-pw: yes
@@ -34,6 +34,7 @@ autoinstall:
         - python3
         - python3-pip
         - sshpass
+        - open-vm-tools
     user-data:
         disable_root: false
     late-commands:
