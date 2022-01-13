@@ -22,8 +22,8 @@ disk_eagerly_scrub          = false
 vm_disk_controller_type     = ["pvscsi"]
 vm_network_card             = "vmxnet3"
 vm_boot_wait                = "5s"
-ssh_username                = "ubuntu"
-ssh_password                = "ubuntu"
+ssh_username                = "krips"
+ssh_password                = "Homeforg33klif3"
 
 # ISO Objects
 
