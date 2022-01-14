@@ -40,7 +40,7 @@ packer init .
 
 ### Step 3: Build a VM Template
 
-To build a VM template run one of the provided `build`-scripts.   
+To build a VM template run one of the provided `build`-scripts.
 For example to build a Ubuntu Server 20.04 template run: 
 ```bash
 ./build-2004.sh
