@@ -15,6 +15,8 @@ autoinstall:
     ssh:
         install-server: yes
         allow-pw: yes
+        authorized-keys:
+            - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAID9C/AlAqvQd9w8aa5ZxOF7B9ejQFZtp+pKGWcCqjW8Z k.rodriguez.mejia@gmail.com
 
     storage:
         layout:
