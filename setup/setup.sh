@@ -11,8 +11,8 @@ if [ -f /var/log/lastlog ]; then
 cat /dev/null > /var/log/lastlog
 fi
 # Cleans SSH keys.
-#echo '> Cleaning SSH keys ...'
-#rm -f /etc/ssh/ssh_host_*
+echo '> Cleaning SSH keys ...'
+rm -f /etc/ssh/ssh_host_*
 # Sets hostname to localhost.
 echo '> Setting hostname to localhost ...'
 cat /dev/null > /etc/hostname
@@ -25,3 +25,10 @@ echo '> Cleaning the machine-id ...'
 truncate -s 0 /etc/machine-id
 rm /var/lib/dbus/machine-id
 ln -s /etc/machine-id /var/lib/dbus/machine-id
+
+# optional: cleaning cloud-init
+# echo '> Cleaning cloud-init'
+# rm -rf /etc/cloud/cloud.cfg.d/subiquity-disable-cloudinit-networking.cfg
+# rm -rf /etc/cloud/cloud.cfg.d/99-installer.cfg
+# echo 'datasource_list: [ VMware, NoCloud, ConfigDrive ]' | tee /etc/cloud/cloud.cfg.d/90_dpkg.cfg
+# /usr/bin/cloud-init clean
