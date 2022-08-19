@@ -21,7 +21,7 @@ variable "vcenter_folder" {
 
 variable "disk_size" {
   type    = number
-  default = 51200
+  default = 122880
 }
 
 variable "mem_size" {
